@@ -7,5 +7,5 @@ from odoo.exceptions import UserError
 class StockPicking(models.Model):
     _inherit = "stock.picking"
 
-    transporter_id = fields.Many2one('res.partner', string='Transporter', )
-    vehicle_id = fields.Many2one('fleet.vehicle', string='Vehicle')
+    driver_id = fields.Many2one('res.partner', string='Driver',states={'done': [('readonly', True)], 'cancel': [('readonly', True)]},)
+    vehicle_id = fields.Many2one('fleet.vehicle', string='Vehicle',states={'done': [('readonly', True)], 'cancel': [('readonly', True)]},)
