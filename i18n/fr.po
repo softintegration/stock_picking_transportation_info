@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-07 18:09+0000\n"
-"PO-Revision-Date: 2023-05-07 18:09+0000\n"
+"POT-Creation-Date: 2023-05-07 18:17+0000\n"
+"PO-Revision-Date: 2023-05-07 18:17+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -22,8 +22,8 @@ msgstr "<strong>Conducteur:</strong>"
 
 #. module: stock_picking_transportation_info
 #: model_terms:ir.ui.view,arch_db:stock_picking_transportation_info.report_delivery_document_inherited
-msgid "<strong>Vehicle:</strong>"
-msgstr "<strong>Véhicule:</strong>"
+msgid "<strong>License plate:</strong>"
+msgstr "<strong>Immatriculation:</strong>"
 
 #. module: stock_picking_transportation_info
 #: model:res.groups,name:stock_picking_transportation_info.group_fleet_module

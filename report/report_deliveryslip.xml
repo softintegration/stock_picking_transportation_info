@@ -9,8 +9,8 @@
                     <p t-field="o.driver_id"/>
                 </div>
                 <div t-if="o.vehicle_id" class="col-auto" name="div_vehicle">
-                    <strong>Vehicle:</strong>
-                    <p t-field="o.vehicle_id"/>
+                    <strong>License plate:</strong>
+                    <p t-field="o.vehicle_id.license_plate"/>
                 </div>
             </div>
         </xpath>
