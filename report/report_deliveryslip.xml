@@ -6,7 +6,7 @@
             <div class="row mt32 mb32" style="margin-top:10px !important;">
                 <div t-if="o.driver_id" class="col-auto" name="div_driver">
                     <strong>Driver:</strong>
-                    <p t-field="o.driver_id"/>
+                    <p t-field="o.driver_id.name"/>
                 </div>
                 <div t-if="o.vehicle_id" class="col-auto" name="div_vehicle">
                     <strong>License plate:</strong>
